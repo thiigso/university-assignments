@@ -1,0 +1,31 @@
+Pointers
+
+1-a) x: 20
+&x: endereço de x
+p: endereco de x
+*p: 20
+&p: endereco de p
+q: endereco de p
+*q: endereco de x
+**q: 20
+
+b) f: 6.000
+*p: 6.000
+*q: 6.000
+
+c)Exclui os espaços de uma string
+
+d)Deixa os maiores valores no c depois em b depois em a, e retorna a soma de todos.
+
+
+Allocation
+
+1- A alocação dinâmica é um mecanismo que permite reservar memória durante a execução do programa, e não em tempo de compilação. Ela é usada quando não sabemos previamente o tamanho da memória que será necessária, como por exemplo quando o usuário informa o tamanho de um vetor. Assim, o programa pode usar apenas a quantidade de memória necessária e liberá-la quando não for mais usada.
+
+2- O operador sizeof é usado para descobrir quantos bytes um tipo de dado ou variável ocupa na memória. Ele é muito utilizado em alocação dinâmica para calcular corretamente a quantidade de memória que deve ser reservada.
+
+3- A função malloc (memory allocation) é usada para alocar dinamicamente um bloco de memória. Ela recebe como parâmetro a quantidade de bytes que devem ser reservados e retorna um ponteiro para o início da memória alocada.
+
+4- A função free é responsável por liberar a memória que foi previamente alocada com malloc. Após chamar free, aquela área de memória pode ser reutilizada pelo sistema. Não liberar a memória pode causar vazamento de memória (memory leak).
+
+5) O programa lê um tamanho, aloca dinamicamente um vetor, lê e imprime seus valores, libera a memória e demonstra uma nova alocação, mostrando o uso de malloc e free.
