@@ -1,0 +1,13 @@
+// cabecalho
+/* circuito da funcao ou
+Thiago
+19-03-2026
+*/
+
+module gate-or A,B,S;
+input A,B;
+output S;
+
+assign S = A | B;
+endmodule
+	
